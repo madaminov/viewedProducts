@@ -69,10 +69,3 @@ Just plug and play.
 MIT License — free to use, modify, and distribute.
 
 ---
-
-## 👤 Author
-
-Developed by Dmitriy  
-(You can add GitHub link here)
-
----
