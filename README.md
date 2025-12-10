@@ -56,3 +56,23 @@ No external libraries. No database modifications.
 Just plug and play.
 
 ---
+
+## 🧪 Tested On
+
+- OpenCart 4 default theme
+- PHP 8.0+
+- Clean installations and custom themes
+- Multi-language stores
+
+## 📝 License
+
+MIT License — free to use, modify, and distribute.
+
+---
+
+## 👤 Author
+
+Developed by Dmitriy  
+(You can add GitHub link here)
+
+---
