@@ -56,10 +56,3 @@ No external libraries. No database modifications.
 Just plug and play.
 
 ---
-
-## 📁 File structure
-
-/extension/module/viewed_products/
-├── admin/
-├── catalog/
-└── system/
