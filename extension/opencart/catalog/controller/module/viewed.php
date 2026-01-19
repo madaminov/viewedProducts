@@ -46,7 +46,8 @@ class Viewed extends \Opencart\System\Engine\Controller {
             $product_id = $this->request->get['product_id'];
             $products = array_diff($products, array($product_id));
             array_unshift($products, $product_id);
-            setcookie('viewed', implode(',',$products), time() + 60 * 60 * 24 * 30, '/', $this->request->server['HTTP_HOST']);
+            $domain = $this->request->server['SERVER_NAME'];
+            setcookie('viewed', implode(',',$products), time() + 60 * 60 * 24 * 30, '/', $domain);
         }
         if(isset($this->request->get['product_id'])){
             $products = array_diff($products, array($this->request->get['product_id']));
